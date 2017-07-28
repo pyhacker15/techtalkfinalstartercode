@@ -1,0 +1,66 @@
+#title { 
+   text-align: center;  
+} 
+
+#photography { 
+  width: 700px;
+  height: 300px;
+  margin-left: 300px;
+} 
+
+
+.text_container { 
+    width: 700px;  
+    text-align: center;
+    margin-left: 300px;
+}
+
+.div2 { 
+   margin-top: 20px;
+} 
+
+.div1 { 
+   margin-top: 20px;
+} 
+.text_container2 { 
+    width: 700px;  
+    text-align: center;
+    margin-left: 300px;
+}
+
+
+
+
+
+/*footer {*/
+/*  font-size: 12px;*/
+/*  padding: 20px 0;*/
+/*  width:4000px;*/
+/*  background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
+  /*//background-size: no-repeat;*/
+/*}*/
+
+/*footer .col-sm-8 {*/
+/* display: flex;*/
+/*  justify-content: flex-end;*/
+/*}*/
+
+/*footer ul {*/
+/*  list-style: none;*/
+/*}*/
+
+/*footer li img {*/
+/*  width: 32px;*/
+/*  height: 32px;*/
+/*}*/
+
+/* .col-sm-4 {*/
+/*   color: #FFF; */
+/*}*/
+
+/*.col-sm-6 {*/
+/*   font-family: Cursive;  */
+/*   text-align: center;*/
+/*   border: 2px solid black;*/
+/*   font-size: 15px;*/
+/*}*/
