@@ -1,66 +1,99 @@
-#title { 
-   text-align: center;  
-} 
-
-#photography { 
-  width: 700px;
-  height: 300px;
-  margin-left: 300px;
-} 
-
-
-.text_container { 
-    width: 700px;  
-    text-align: center;
-    margin-left: 300px;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
-.div2 { 
-   margin-top: 20px;
-} 
-
-.div1 { 
-   margin-top: 20px;
-} 
-.text_container2 { 
-    width: 700px;  
-    text-align: center;
-    margin-left: 300px;
+header {
+  padding: 20px;
 }
 
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  font-family: Cursive;
+  color: black;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  color: black;
+}
+
+.image { 
+  height: 800px;
+  width: 1400px;
+  display: inline;
+}
+
+.img-circle { 
+   width:200px;
+   height: 200px;
+   margin-bottom: 10px;
+   display: inline;
+}
+
+.bg-1 { 
+   padding-top: 70px;
+   padding-bottom: 70px;
+   background-color: #1abc9c; 
+}
+
+body{
+    background-color: #fff;
+}
+
+.jumbotron { 
+     background-image: url("http://tomeversley.com/wp-content/uploads/2016/01/nyc-03.jpg");
+     background-size: cover;
+     display: flex;
+     height: 500px;
+     margin-bottom: 10px;
+} 
 
 
 
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
+  margin-top: 50px;
+  background-color: black;
+}
 
-/*footer {*/
-/*  font-size: 12px;*/
-/*  padding: 20px 0;*/
-/*  width:4000px;*/
-/*  background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
-  /*//background-size: no-repeat;*/
-/*}*/
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
 
-/*footer .col-sm-8 {*/
-/* display: flex;*/
-/*  justify-content: flex-end;*/
-/*}*/
+footer ul {
+  list-style: none;
+}
 
-/*footer ul {*/
-/*  list-style: none;*/
-/*}*/
+footer li img {
+  width: 32px;
+  height: 32px;
+}
 
-/*footer li img {*/
-/*  width: 32px;*/
-/*  height: 32px;*/
-/*}*/
+ footer .col-sm-4 {
+   color: #FFF; 
+}
 
-/* .col-sm-4 {*/
-/*   color: #FFF; */
-/*}*/
-
-/*.col-sm-6 {*/
-/*   font-family: Cursive;  */
-/*   text-align: center;*/
-/*   border: 2px solid black;*/
-/*   font-size: 15px;*/
-/*}*/
+.col-sm-6 {
+   font-family: Cursive;  
+   text-align: center;
+   border: 2px solid black;
+   font-size: 15px;
+}
